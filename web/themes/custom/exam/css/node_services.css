@@ -1,0 +1,9 @@
+.view-all-services .view-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 10%;
+  justify-content: center;
+  max-width: 1440px;
+  margin-left: 10%;
+}
+/*# sourceMappingURL=node_services.css.map */

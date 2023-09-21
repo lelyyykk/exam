@@ -1,0 +1,54 @@
+@import "variables";
+@import "mixin";
+header {
+  .field--name-field-image {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+.field--type-text-with-summary {
+  img {
+    max-width: 1920px;
+    width: auto;
+  }
+}
+
+.region-header {
+  .field--type-text-with-summary {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    margin: 17.1% 0 0 23.7%;
+    z-index: 1;
+    max-width: 347px;
+    text-transform: uppercase;
+    p {
+      &:nth-child(1) {
+        font-size: 68px;
+        font-weight: 100;
+        letter-spacing: -3px;
+        margin: 0;
+        padding-bottom: 48px;
+        color: $white;
+      }
+      &:nth-child(2) {
+        font-size: 38px;
+        margin: 0;
+        padding-bottom: 23px;
+      }
+      &:nth-child(3) {
+        font-size: 15px;
+        letter-spacing: -1px;
+        line-height: 19px;
+        color: $blue;
+        margin: 0;
+        padding-bottom: 23px;
+        width: 370px;
+        hyphens: manual;
+      }
+    }
+  }
+}

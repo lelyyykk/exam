@@ -1,0 +1,9 @@
+.view-slide-home .field__label {
+  display: none;
+}
+.view-slide-home .field__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*# sourceMappingURL=slider.css.map */

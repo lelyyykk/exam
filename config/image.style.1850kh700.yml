@@ -1,0 +1,15 @@
+uuid: 71343601-49f5-4086-bf4f-a678da3eea70
+langcode: en
+status: true
+dependencies: {  }
+name: 1850kh700
+label: 1850х700
+effects:
+  e7ed47ac-ff47-4526-9492-b7bbc959adc8:
+    uuid: e7ed47ac-ff47-4526-9492-b7bbc959adc8
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1850
+      height: 700
+      anchor: center-center

@@ -1,0 +1,88 @@
+@import "variables";
+@import "mixin";
+.block-views-blockprojects-block-1 {
+  margin-top: $mt-l;
+}
+.view-projects  {
+  z-index: -2;
+  background: repeating-linear-gradient(132deg, #ffffff, #ffffff 8px, #cccccc 7px, #cccccc 9px);
+  .view-content {
+    padding: 49px;
+  }
+  .views-row {
+    background-color: $white;
+    border-bottom: 1px solid $dark-blue;
+    padding-bottom: 15px;
+    .views-field-field-image {
+      img {
+        margin-bottom: $mt-m;
+      }
+    }
+    .views-field-title {
+      padding-bottom: 14px;
+      span {
+        a {
+          @include title;
+          &:hover {
+            font-weight: 500;
+            text-shadow: $blue 1px 0 10px;
+          }
+        }
+      }
+    }
+    .views-field-field-type-service {
+      padding-bottom: 23px;
+      a {
+        text-decoration: none;
+        font-weight: 500;
+      }
+      a[href="/node/3"] {
+        color: $green;
+      }
+      a[href="/node/6"] {
+        color: $red;
+      }
+      a[href="/node5"] {
+        color: $violet;
+      }
+      a[href="/node/7"] {
+        color: $green;
+      }
+    }
+    .views-field-view-node {
+      span {
+        a {
+          @include button;
+          background-color: $dark-blue;
+          &:hover {
+            @include hover-button;
+          }
+        }
+      }
+    }
+  }
+  .pager {
+    ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding-bottom: 79px;
+      li {
+        a {
+          position: relative;
+          z-index: 1;
+          font-size: 15px;
+          margin: 14px;
+          color: $dark-blue;
+          text-decoration: none;
+        }
+        &:hover::before {
+         @include pager;
+        }
+        &.is-active::before {
+          @include pager;
+        }
+      }
+    }
+  }
+}

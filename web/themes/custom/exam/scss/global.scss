@@ -1,0 +1,56 @@
+@import "variables";
+@import "mixin";
+html,
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0 auto;
+  height: 100%;
+
+  a {
+    text-decoration: none;
+  }
+  main {
+    margin: 0 auto;
+    flex: 1 1 auto;
+    height: 100%;
+  }
+   h2,
+   .field--name-title{
+    text-align: center;
+    text-transform: uppercase;
+    color: $dark-blue;
+    &::before {
+      @include line-homepage;
+      left: 16%;
+      }
+    &::after {
+      @include line-homepage;
+      right: 16%;
+    }
+  }
+  .view-content {
+    @include content;
+  }
+  input {
+    border: none;
+  }
+  .visually-hidden .focusable {
+    display: none;
+  }
+  .page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 1;
+    .main-content, .block-system-main-block {
+      margin-bottom: 101px;
+    }
+    footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  }
+}
+

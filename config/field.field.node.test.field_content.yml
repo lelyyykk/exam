@@ -1,0 +1,32 @@
+uuid: 4636d68a-0445-4df1-8714-c16afa23c2e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content
+    - node.type.test
+  module:
+    - entity_reference_revisions
+id: node.test.field_content
+field_name: field_content
+entity_type: node
+bundle: test
+label: Content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: {  }
+    negate: 0
+    target_bundles_drag_drop:
+      images:
+        weight: 3
+        enabled: true
+      text:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,8 @@
+uuid: 8a207473-344a-457d-b9fe-652e2154b4ea
+langcode: en
+status: true
+dependencies: {  }
+name: 'personal rescurces'
+vid: personal_rescurces
+description: ''
+weight: 0

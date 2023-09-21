@@ -1,0 +1,23 @@
+uuid: 120ef812-124d-4ba9-bd6e-aa9b234ab478
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_to
+    - node.type.slide
+  module:
+    - link
+id: node.slide.field_link_to
+field_name: field_link_to
+entity_type: node
+bundle: slide
+label: 'Link to'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 17
+field_type: link

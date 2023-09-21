@@ -1,0 +1,20 @@
+name: "exam"
+description: "Custom Theme"
+type: theme
+core_version_requirement: ^9
+base theme: classy
+
+libraries:
+  - exam/global
+  - exam/exam
+
+stylesheets-remove:
+  - '@classy/css/components/menu.css'
+  - '@classy/css/components/pager.css'
+
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  content: Content
+  footer: Footer
+

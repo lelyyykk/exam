@@ -1,0 +1,165 @@
+uuid: 7e9c39dc-99b8-44bd-99f6-eb94211cbdb1
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media_links
+  theme:
+    - exam
+id: socialmedialinks_2
+theme: exam
+region: footer
+weight: 0
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'Social Media Links'
+  label_display: '0'
+  provider: social_media_links
+  platforms:
+    facebook:
+      value: '#'
+      description: ''
+      weight: '-47'
+    tiktok:
+      value: ''
+      description: ''
+      weight: '-43'
+    website:
+      value: ''
+      description: ''
+      weight: '-42'
+    youtube:
+      value: ''
+      description: ''
+      weight: '-41'
+    rss:
+      value: ''
+      description: ''
+      weight: '-40'
+    goodreads:
+      value: ''
+      description: ''
+      weight: '-39'
+    pinterest:
+      value: ''
+      description: ''
+      weight: '-38'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '-37'
+    behance:
+      value: ''
+      description: ''
+      weight: '-36'
+    googleplay:
+      value: ''
+      description: ''
+      weight: '-35'
+    vkontakte:
+      value: ''
+      description: ''
+      weight: '-34'
+    gitlab:
+      value: ''
+      description: ''
+      weight: '-33'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '-32'
+    drupal:
+      value: ''
+      description: ''
+      weight: '-31'
+    glassdoor:
+      value: ''
+      description: ''
+      weight: '-30'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '-29'
+    patreon:
+      value: ''
+      description: ''
+      weight: '-28'
+    github:
+      value: ''
+      description: ''
+      weight: '-27'
+    youtube_channel:
+      value: ''
+      description: ''
+      weight: '-26'
+    email:
+      value: ''
+      description: ''
+      weight: '-25'
+    amazon:
+      value: ''
+      description: ''
+      weight: '-24'
+    contact:
+      value: ''
+      description: ''
+      weight: '-23'
+    xing:
+      value: ''
+      description: ''
+      weight: '-22'
+    telegram:
+      value: ''
+      description: ''
+      weight: '-21'
+    flickr:
+      value: ''
+      description: ''
+      weight: '-20'
+    meetup:
+      value: ''
+      description: ''
+      weight: '-19'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '-18'
+    instagram:
+      value: ''
+      description: ''
+      weight: '-17'
+    googleplus:
+      value: ''
+      description: ''
+      weight: '-16'
+    mastodon:
+      value: ''
+      description: ''
+      weight: '-15'
+    twitter:
+      value: '#'
+      description: ''
+      weight: '-10'
+    whatsapp:
+      value: ''
+      description: ''
+      weight: '-9'
+    linkedin:
+      value: '#'
+      description: ''
+      weight: '11'
+  appearance:
+    orientation: h
+    show_name: 0
+    suggestion: ''
+  link_attributes:
+    target: '<none>'
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:2x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility: {  }

@@ -12,12 +12,24 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        }, {
+            "type": "package",
+            "package": {
+                "name": "kenwheeler/slick",
+                "version": "1.8.0",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/kenwheeler/slick/archive/refs/tags/1.8.0.zip",
+                    "type": "zip"
+                }
+            }
         }
     ],
     "require": {
-      "composer/installers": "^1.9",
+        "composer/installers": "^1.9",
         "drupal/address": "^1.11",
         "drupal/admin_toolbar": "^3.4",
+        "drupal/algolia_places": "^2.0",
         "drupal/backup_migrate": "^5.0",
         "drupal/better_exposed_filters": "^6.0",
         "drupal/captcha": "^1.10",
@@ -29,6 +41,7 @@
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
         "drupal/devel": "^5.0",
+        "drupal/draggableviews": "^2.1",
         "drupal/ds": "^3.15",
         "drupal/entity_clone": "^2.0@beta",
         "drupal/entityqueue": "^1.6",
@@ -36,10 +49,14 @@
         "drupal/features": "^3.12",
         "drupal/field_group": "^3.4",
         "drupal/flag": "^4.0@beta",
+        "drupal/flexslider": "^2.0",
+        "drupal/fontawesome_menu_icons": "^2.0",
         "drupal/google_analytics": "^4.0",
         "drupal/inline_entity_form": "^1.0@RC",
         "drupal/jquery_ui_slider": "^2.0",
         "drupal/jquery_ui_touch_punch": "^1.1",
+        "drupal/leaflet": "^10.0",
+        "drupal/like": "^1.0",
         "drupal/mailsystem": "^4.4",
         "drupal/masquerade_field": "^2.0",
         "drupal/metatag": "^1.22",
@@ -49,16 +66,24 @@
         "drupal/quicktabs": "^3.0@alpha",
         "drupal/redirect": "^1.8",
         "drupal/search_api": "^1.29",
+        "drupal/simple_gmap": "^3.0",
+        "drupal/simple_like_button": "^1.0@beta",
+        "drupal/slick_views": "^2.7",
+        "drupal/social_link_field": "^1.1@alpha",
+        "drupal/social_media_links": "^2.9",
         "drupal/swiftmailer": "^2.4",
         "drupal/taxonomy_menu": "^3.6",
+        "drupal/telephone_validation": "^2.4",
         "drupal/token": "^1.11",
         "drupal/ultimate_cron": "^2.0@alpha",
         "drupal/views_bulk_operations": "^4.2",
         "drupal/views_data_export": "^1.3",
+        "drupal/views_fieldsets": "^4.0",
         "drupal/views_slideshow": "^5.0",
         "drupal/webform": "^6.1",
         "drupal/xmlsitemap": "^1.4",
-        "drush/drush": "^10.2"
+        "drush/drush": "^10.2",
+        "kenwheeler/slick": "^1.8"
     },
     "conflict": {
         "drupal/drupal": "*"

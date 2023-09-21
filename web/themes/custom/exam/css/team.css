@@ -1,0 +1,77 @@
+.block-views-blockteam-block-1 {
+  margin-top: 100px;
+}
+
+.view-team .views-row .views-field-field-image img {
+  padding-bottom: 14px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+.view-team .views-row .views-field-field-image img:hover {
+  filter: grayscale(0%);
+}
+.view-team .views-row .views-field-title span a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #373645;
+  font-size: 21px;
+}
+.view-team .views-row .views-field-title span a:hover {
+  font-weight: 500;
+  text-shadow: #6e9bca 1px 0 10px;
+}
+.view-team .views-row .views-field-field-position {
+  padding-bottom: 14px;
+}
+.view-team .views-row .views-field-field-position a {
+  color: #e0e0e0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
+}
+.view-team .views-row .views-field-view-node span a {
+  background-color: #6e9bca;
+  padding: 8px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  background-color: #373645;
+}
+.view-team .views-row .views-field-view-node span a:hover {
+  padding: 9px;
+  box-shadow: 0 0 10px -3px #373645;
+}
+.view-team .views-field-field-social-links {
+  display: flex;
+  justify-content: flex-start;
+}
+.view-team .views-field-field-social-links div ul li a {
+  margin: 5px;
+}
+.view-team .views-field-field-social-links div ul li a svg {
+  font-size: 30px;
+  color: #6e9bca;
+}
+.view-team .views-field-field-social-links div ul li a svg:hover {
+  color: #373645;
+}
+.view-team .views-field-link-flag span .flag {
+  display: flex;
+  justify-content: flex-end;
+}
+.view-team .views-field-link-flag span .flag a {
+  font-size: 0;
+  width: 20px;
+  font-weight: 600;
+  margin-top: -40px;
+  background-repeat: no-repeat;
+  display: block;
+  height: 20px;
+}
+.view-team .action-flag a {
+  background-image: url("../img/heart/photo_1.png");
+}
+.view-team .action-unflag a {
+  background-image: url("../img/heart/photo_2.png");
+}
+/*# sourceMappingURL=team.css.map */

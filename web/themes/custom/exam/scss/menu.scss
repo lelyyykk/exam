@@ -1,0 +1,110 @@
+@import "variables";
+@import "mixin";
+.region-primary-menu {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  top: 3%;
+  background: $white;
+  box-shadow: 0 0 28px -3px rgba(0, 0, 0, 0.53);
+  margin-left: 18%;
+  #block-exam-site-branding {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $dark-blue;
+    height: 113px;
+    width: 258px;
+    position: relative;
+    z-index: 1;
+
+    .site-name {
+      a {
+        text-decoration: none;
+        font-size: 33px;
+        color: $blue;
+        &:hover {
+          color: $white;
+          text-shadow: $blue  15px 0 15px;
+        }
+      }
+    }
+
+    .site-slogan {
+      color: $white;
+      font-size: 15px;
+    }
+
+    .views-field-field-image {
+      .field-content {
+        img {
+          position: absolute;
+        }
+      }
+    }
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    .menu-item {
+      padding: 8px;
+
+      a {
+        color: $dark-blue;
+        text-decoration: none;
+        position: relative;
+        text-transform: uppercase;
+        &:hover {
+          padding-bottom: 40px;
+          border-bottom: 7px solid $blue;
+        }
+        &:active{
+          padding-bottom: 40px;
+          border-bottom: 7px solid $blue;
+        }
+      }
+
+      &:nth-child(1) {
+        a {
+          font-size: 0;
+          &:hover {
+            padding-bottom: 37.2px;
+            border-bottom: 7px solid $blue;
+          }
+        }
+        :before {
+          content: url("../img/home/Homepage-menu.png");
+        }
+      }
+    }
+  }
+
+  form {
+    .form-search {
+      height: 32.8px;
+      width: 168px;
+      margin-right: -7px;
+      border: 1px solid #cccccc;
+    }
+
+    .form-submit {
+      width: 38px;
+      height: 36.8px;
+      margin-right: 13px;
+      background-color: $white;
+      border: 1px solid #cccccc;
+      background-image: url("../img/search/sr.png");
+      background-size: cover;
+
+      color: transparent;
+    }
+  }
+}
+.svg-inline--fa {
+color: $blue;
+}

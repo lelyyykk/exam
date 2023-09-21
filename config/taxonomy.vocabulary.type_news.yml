@@ -1,0 +1,8 @@
+uuid: 704b5eb0-aa24-4a4b-91a0-ca511e677f29
+langcode: en
+status: true
+dependencies: {  }
+name: finance
+vid: type_news
+description: ''
+weight: 0

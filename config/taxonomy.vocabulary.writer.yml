@@ -1,0 +1,8 @@
+uuid: c5cd8afb-169a-4d15-81a4-53a6bc5c6d2b
+langcode: en
+status: true
+dependencies: {  }
+name: Writer
+vid: writer
+description: ''
+weight: 0

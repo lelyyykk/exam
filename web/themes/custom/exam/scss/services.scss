@@ -1,0 +1,51 @@
+@import "variables";
+@import "mixin";
+
+.block-views-blockservices-block-1 {
+  margin-top: $mt-l;
+}
+.view-services {
+  .view-content {
+    flex-direction: row-reverse;
+    .views-row {
+      .views-field-title {
+        padding-bottom: 14px;
+        span {
+          a {
+           @include title;
+            &:hover {
+              font-weight: 500;
+              text-shadow: $blue 1px 0 10px;
+            }
+          }
+        }
+      }
+      .views-field-field-image {
+        img {
+          margin-bottom: $mt-m;
+        }
+      }
+      .views-field-body {
+        div {
+          width: 64%;
+          padding-left: 17%;
+          color: $light;
+          font-size: 12px;
+          text-transform: uppercase;
+          line-height: 17px;
+          padding-bottom: 25px;
+        }
+      }
+      .views-field-view-node {
+        span {
+          a {
+            @include button;
+            &:hover {
+              @include hover-button;
+            }
+          }
+        }
+      }
+    }
+  }
+}

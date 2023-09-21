@@ -1,0 +1,33 @@
+uuid: 1c1f7a1e-b4f6-442d-9d23-86cc9dff3eed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.test.body
+    - field.field.node.test.field_content
+    - node.type.test
+  module:
+    - entity_reference_revisions
+    - user
+id: node.test.default
+targetEntityType: node
+bundle: test
+mode: default
+content:
+  field_content:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  search_api_excerpt: true

@@ -1,0 +1,20 @@
+uuid: 1cc0e903-fff2-49b3-8f53-f2d0e9536d1b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_finance
+field_name: field_finance
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,92 @@
+html,
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0 auto;
+  height: 100%;
+}
+html a,
+body a {
+  text-decoration: none;
+}
+html main,
+body main {
+  margin: 0 auto;
+  flex: 1 1 auto;
+  height: 100%;
+}
+html h2,
+html .field--name-title,
+body h2,
+body .field--name-title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #373645;
+}
+html h2::before,
+html .field--name-title::before,
+body h2::before,
+body .field--name-title::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 30%;
+  background-color: #cccccc;
+  margin-top: 11px;
+  /*
+  left: 16%;
+  */
+  left: 16%;
+}
+html h2::after,
+html .field--name-title::after,
+body h2::after,
+body .field--name-title::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 30%;
+  background-color: #cccccc;
+  margin-top: 11px;
+  /*
+  left: 16%;
+  */
+  right: 16%;
+}
+html .view-content,
+body .view-content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  max-width: 84%;
+  margin-left: 9%;
+}
+html input,
+body input {
+  border: none;
+}
+html .visually-hidden .focusable,
+body .visually-hidden .focusable {
+  display: none;
+}
+html .page,
+body .page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 1;
+}
+html .page .main-content, html .page .block-system-main-block,
+body .page .main-content,
+body .page .block-system-main-block {
+  margin-bottom: 101px;
+}
+html .page footer,
+body .page footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+/*# sourceMappingURL=global.css.map */

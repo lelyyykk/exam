@@ -1,0 +1,51 @@
+@mixin social_links {
+  .block-social-media-links-block {
+    font-size: 0;
+  }
+}
+@mixin button {
+  background-color: #6e9bca;
+  padding: 8px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+}
+@mixin hover-button {
+  padding: 9px;
+  box-shadow: 0 0 10px -3px #373645;
+}
+@mixin content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  max-width: 84%;
+  margin-left: 9%;
+}
+@mixin title {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #373645;
+  font-size: 21px;
+}
+@mixin line-homepage {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 30%;
+  background-color: #cccccc;
+  margin-top: 11px;
+  /*
+  left: 16%;
+  */
+}
+@mixin pager {
+  content: "";
+  width: 29px;
+  height: 26px;
+  margin: -2px 0 0 4px;
+  position: absolute;
+  border-radius: 64%;
+  background-color: #cccccc;
+}

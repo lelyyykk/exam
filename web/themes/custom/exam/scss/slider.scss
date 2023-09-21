@@ -1,0 +1,13 @@
+@import "variables";
+@import "mixin";
+
+.view-slide-home {
+  .field__label {
+  display: none;
+  }
+  .field__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

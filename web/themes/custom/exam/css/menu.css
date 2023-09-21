@@ -1,0 +1,90 @@
+.region-primary-menu {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  top: 3%;
+  background: #ffffff;
+  box-shadow: 0 0 28px -3px rgba(0, 0, 0, 0.53);
+  margin-left: 18%;
+}
+.region-primary-menu #block-exam-site-branding {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #373645;
+  height: 113px;
+  width: 258px;
+  position: relative;
+  z-index: 1;
+}
+.region-primary-menu #block-exam-site-branding .site-name a {
+  text-decoration: none;
+  font-size: 33px;
+  color: #6e9bca;
+}
+.region-primary-menu #block-exam-site-branding .site-name a:hover {
+  color: #ffffff;
+  text-shadow: #6e9bca 15px 0 15px;
+}
+.region-primary-menu #block-exam-site-branding .site-slogan {
+  color: #ffffff;
+  font-size: 15px;
+}
+.region-primary-menu #block-exam-site-branding .views-field-field-image .field-content img {
+  position: absolute;
+}
+.region-primary-menu .menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.region-primary-menu .menu .menu-item {
+  padding: 8px;
+}
+.region-primary-menu .menu .menu-item a {
+  color: #373645;
+  text-decoration: none;
+  position: relative;
+  text-transform: uppercase;
+}
+.region-primary-menu .menu .menu-item a:hover {
+  padding-bottom: 40px;
+  border-bottom: 7px solid #6e9bca;
+}
+.region-primary-menu .menu .menu-item a:active {
+  padding-bottom: 40px;
+  border-bottom: 7px solid #6e9bca;
+}
+.region-primary-menu .menu .menu-item:nth-child(1) a {
+  font-size: 0;
+}
+.region-primary-menu .menu .menu-item:nth-child(1) a:hover {
+  padding-bottom: 37.2px;
+  border-bottom: 7px solid #6e9bca;
+}
+.region-primary-menu .menu .menu-item:nth-child(1) :before {
+  content: url("../img/home/Homepage-menu.png");
+}
+.region-primary-menu form .form-search {
+  height: 32.8px;
+  width: 168px;
+  margin-right: -7px;
+  border: 1px solid #cccccc;
+}
+.region-primary-menu form .form-submit {
+  width: 38px;
+  height: 36.8px;
+  margin-right: 13px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  background-image: url("../img/search/sr.png");
+  background-size: cover;
+  color: transparent;
+}
+
+.svg-inline--fa {
+  color: #6e9bca;
+}
+/*# sourceMappingURL=menu.css.map */

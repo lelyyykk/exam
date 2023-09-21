@@ -1,0 +1,21 @@
+@import "variables";
+@import "mixin";
+
+.region-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: $dark-blue;
+  height: 133px;
+  .site-name {
+    a {
+      text-decoration: none;
+      font-size: 33px;
+      color: $blue;
+    }
+  }
+  .site-slogan {
+    color: $white;
+    font-size: 15px;
+  }
+}

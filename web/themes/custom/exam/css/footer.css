@@ -1,0 +1,17 @@
+.region-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #373645;
+  height: 133px;
+}
+.region-footer .site-name a {
+  text-decoration: none;
+  font-size: 33px;
+  color: #6e9bca;
+}
+.region-footer .site-slogan {
+  color: #ffffff;
+  font-size: 15px;
+}
+/*# sourceMappingURL=footer.css.map */

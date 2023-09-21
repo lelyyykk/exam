@@ -1,0 +1,23 @@
+uuid: 7d87eff4-9121-4327-82df-3d0f43364584
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ma_maps.field_maps
+    - node.type.ma_maps
+  module:
+    - user
+id: node.ma_maps.teaser
+targetEntityType: node
+bundle: ma_maps
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_maps: true
+  search_api_excerpt: true

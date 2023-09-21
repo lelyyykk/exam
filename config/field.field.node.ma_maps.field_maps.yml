@@ -1,0 +1,19 @@
+uuid: b3f792bf-5358-44e1-8f09-f8b43761019e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_maps
+    - node.type.ma_maps
+id: node.ma_maps.field_maps
+field_name: field_maps
+entity_type: node
+bundle: ma_maps
+label: Map
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

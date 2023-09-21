@@ -1,0 +1,42 @@
+uuid: 2712d00d-5611-4792-8d85-0e0a7038efab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.banner.field_banner_text
+    - field.field.node.banner.field_image
+    - node.type.banner
+  module:
+    - image
+    - text
+    - user
+id: node.banner.default
+targetEntityType: node
+bundle: banner
+mode: default
+content:
+  field_banner_text:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  search_api_excerpt: true

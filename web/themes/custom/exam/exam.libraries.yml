@@ -1,0 +1,26 @@
+global:
+  css:
+    theme:
+      "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap": { external: true }
+
+
+      css/elements.css: {}
+    component:
+      css/header.css: {}
+      css/menu.css: {}
+      css/about.css: {}
+      css/services.css: {}
+      css/projects.css: {}
+      css/team.css: {}
+      css/news.css: {}
+      css/node_about.css: {}
+      css/node_services.css: {}
+      css/node_projects.css: {}
+      css/slider.css: {}
+      css/global.css: {}
+      css/footer.css: {}
+
+exam:
+  css:
+    component:
+      css/exam.css: {}

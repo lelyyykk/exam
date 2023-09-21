@@ -1,0 +1,13 @@
+.view-all-projects .view-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 10%;
+  justify-content: center;
+  max-width: 1440px;
+  margin-left: 12.5%;
+}
+.view-all-projects .view-content img {
+  width: 30%;
+  height: 30%;
+}
+/*# sourceMappingURL=node_projects.css.map */

@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: ccb8f389-7782-4103-af00-4bcc3bd90c58
+name: Quarantie
+mail: admin@example.com
+slogan: 'Sofware Development'
+page:
+  403: ''
+  404: ''
+  front: /node/4
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

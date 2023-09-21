@@ -1,0 +1,29 @@
+uuid: 5d40a10b-3891-4d8b-b933-8ec2e0e11940
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_personal
+    - node.type.news
+    - taxonomy.vocabulary.personal_rescurces
+id: node.news.field_personal
+field_name: field_personal
+entity_type: node
+bundle: news
+label: personal
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      personal_rescurces: personal_rescurces
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

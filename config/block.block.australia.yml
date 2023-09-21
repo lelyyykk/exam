@@ -1,0 +1,30 @@
+uuid: c3ab3b90-f4aa-44f5-a1f5-a41509f46d82
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:27ca011d-84b0-480b-84b2-24dc532e264d'
+  module:
+    - block_content
+    - system
+  theme:
+    - exam
+id: australia
+theme: exam
+region: content
+weight: -5
+provider: null
+plugin: 'block_content:27ca011d-84b0-480b-84b2-24dc532e264d'
+settings:
+  id: 'block_content:27ca011d-84b0-480b-84b2-24dc532e264d'
+  label: AUSTRALIA
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /contact

@@ -1,0 +1,111 @@
+@import "variables";
+@import "mixin";
+.block-views-blockteam-block-1 {
+  margin-top: $mt-l;
+}
+.view-team {
+  .views-row {
+    .views-field-field-image {
+      img {
+        padding-bottom: 14px;
+        filter: grayscale(100%);
+        transition: filter 0.3s ease-in-out;
+
+        &:hover {
+          filter: grayscale(0%);
+        }
+      }
+    }
+
+    .views-field-title {
+      span {
+        a {
+          @include title;
+
+          &:hover {
+            font-weight: 500;
+            text-shadow: $blue 1px 0 10px;
+          }
+        }
+      }
+    }
+
+    .views-field-field-position {
+      padding-bottom: 14px;
+
+      a {
+        color: $light;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 12px;
+      }
+    }
+
+    .views-field-view-node {
+      span {
+        a {
+          @include button;
+          background-color: $dark-blue;
+          &:hover {
+            @include hover-button;
+          }
+        }
+      }
+    }
+  }
+
+  .views-field-field-social-links {
+    display: flex;
+    justify-content: flex-start;
+
+    div {
+      ul {
+        li {
+          a {
+            margin: 5px;
+
+            svg {
+              font-size: 30px;
+              color: $sl;
+
+              &:hover {
+                color: $dark-blue;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .views-field-link-flag {
+    span {
+      .flag {
+        display: flex;
+        justify-content: flex-end;
+
+        a {
+          font-size: 0;
+          width: 20px;
+          font-weight: 600;
+          margin-top: -40px;
+          background-repeat: no-repeat;
+          display: block;
+          height: 20px;
+        }
+      }
+    }
+  }
+  .action-flag {
+    a {
+      background-image: url("../img/heart/photo_1.png");
+    }
+  }
+
+  .action-unflag {
+    a {
+      background-image: url("../img/heart/photo_2.png");
+    }
+  }
+}
+

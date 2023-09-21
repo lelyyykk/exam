@@ -1,0 +1,49 @@
+.view-about .view-content {
+  display: flex;
+  justify-content: flex-end;
+}
+.view-about .view-content .views-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  padding: 13px 0;
+  margin-top: 100px;
+  border-top: 6px solid #373645;
+  border-bottom: 6px solid #6e9bca;
+  text-transform: uppercase;
+  width: 70%;
+  margin-left: 16%;
+}
+.view-about .view-content .views-row span {
+  padding: 0 8px;
+}
+.view-about .view-content .views-row .views-field-title a {
+  color: #373645;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 900;
+}
+.view-about .view-content .views-row .views-field-title a:hover {
+  font-weight: 700;
+  text-shadow: #6e9bca 1px 0 10px;
+}
+.view-about .view-content .views-row .views-field-body .field-content {
+  color: #e0e0e0;
+  font-size: 15px;
+  letter-spacing: -0.6px;
+}
+.view-about .view-content .views-row .views-field-view-node a {
+  background-color: #6e9bca;
+  padding: 8px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+}
+.view-about .view-content .views-row .views-field-view-node a:hover {
+  padding: 9px;
+  box-shadow: 0 0 10px -3px #373645;
+}
+/*# sourceMappingURL=about.css.map */

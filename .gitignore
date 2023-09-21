@@ -6,6 +6,8 @@
 /web/themes/contrib/
 /web/profiles/contrib/
 /web/libraries/
+/.docksal/
+/mydb.sql
 
 # Ignore local settings
 /web/sites/*/settings.local.php

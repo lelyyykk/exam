@@ -1,0 +1,44 @@
+.block-views-blockservices-block-1 {
+  margin-top: 100px;
+}
+
+.view-services .view-content {
+  flex-direction: row-reverse;
+}
+.view-services .view-content .views-row .views-field-title {
+  padding-bottom: 14px;
+}
+.view-services .view-content .views-row .views-field-title span a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #373645;
+  font-size: 21px;
+}
+.view-services .view-content .views-row .views-field-title span a:hover {
+  font-weight: 500;
+  text-shadow: #6e9bca 1px 0 10px;
+}
+.view-services .view-content .views-row .views-field-field-image img {
+  margin-bottom: 32px;
+}
+.view-services .view-content .views-row .views-field-body div {
+  width: 64%;
+  padding-left: 17%;
+  color: #e0e0e0;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 17px;
+  padding-bottom: 25px;
+}
+.view-services .view-content .views-row .views-field-view-node span a {
+  background-color: #6e9bca;
+  padding: 8px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+}
+.view-services .view-content .views-row .views-field-view-node span a:hover {
+  padding: 9px;
+  box-shadow: 0 0 10px -3px #373645;
+}
+/*# sourceMappingURL=services.css.map */
