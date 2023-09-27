@@ -19,6 +19,7 @@
 }
 .view-news {
   background: repeating-linear-gradient(132deg, #ffffff, #ffffff 8px, #cccccc 7px, #cccccc 9px);
+
   .form--inline {
     display: flex;
     align-items: center;
@@ -33,7 +34,8 @@
       height: 30px;
       width: 325px;
       border-radius: 4px;
-      color: $light;
+      color: $dark-blue;
+      padding-left: 7px;
 
       &::placeholder {
         color: $light;
@@ -59,12 +61,14 @@
       }
     }
   }
+
   .view-filters {
     .views-exposed-form {
       margin-left: 7%;
       padding-top: 20px;
     }
   }
+
   .views-row {
     .views-field-created,
     .views-field-created-2,
@@ -117,6 +121,7 @@
         }
       }
     }
+
     .views-field-title {
       display: flex;
       margin: -11% 0px 0 28%;
@@ -126,39 +131,45 @@
         color: $dark-blue;
         font-size: 14px;
       }
+
       &:before {
         content: "WRITER";
         color: $light;
         margin: 1%;
         font-size: 14px;
       }
-       &:after{
-         content: "/";
-         color: $dark-blue;
-         margin: 1%;
-       }
+
+      &:after {
+        content: "/";
+        color: $dark-blue;
+        margin: 1%;
+      }
     }
 
     .views-field-field-finance {
       div {
         margin: -25px 0 0 51%;
         text-transform: uppercase;
+
         a {
           color: $blue;
           font-size: 14px;
         }
       }
     }
+
     .views-field-field-personal {
       div {
         text-transform: uppercase;
         margin: -25px 0 0 55%;
+
         a {
           color: $blue;
           font-size: 14px;
         }
       }
     }
+
     .views-field-field-image {
       div {
         display: flex;
@@ -167,8 +178,9 @@
         border-left: 1px solid $light;
       }
     }
+
     .views-field-field-paragraph {
-      p{
+      p {
         text-transform: uppercase;
         margin: 13% 0 3% 13%;
         color: $dark-blue;
@@ -176,6 +188,7 @@
         font-weight: 400;
       }
     }
+
     .views-field-body {
       div {
         text-transform: uppercase;
@@ -186,6 +199,7 @@
         font-size: 13px;
       }
     }
+
     .views-field-view-node {
       span {
         display: flex;
@@ -193,11 +207,13 @@
         margin: 0 0 0 0;
       }
     }
+
     .views-field-view-node {
       span {
         a {
           @include button;
           background-color: $dark-blue;
+
           &:hover {
             @include hover-button;
           }
@@ -205,6 +221,7 @@
       }
     }
   }
+
   .views-field-created-1 {
     span {
       color: $light;
@@ -212,5 +229,19 @@
       margin-top: -17px;
     }
   }
+
+  .view-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 30px 14px;
+    text-transform: uppercase;
+    border-bottom: 1px solid $dark-blue;
+    font-size: 22px;
+    font-weight: 700;
+    color: $dark-blue;
+    min-height: 200px;
+  }
 }
+
 

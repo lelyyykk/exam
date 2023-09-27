@@ -31,7 +31,8 @@
   height: 30px;
   width: 325px;
   border-radius: 4px;
-  color: #e0e0e0;
+  color: #373645;
+  padding-left: 7px;
 }
 .view-news .form--inline input::placeholder {
   color: #e0e0e0;
@@ -163,5 +164,17 @@
   color: #e0e0e0;
   padding-top: 1px;
   margin-top: -17px;
+}
+.view-news .view-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 30px 14px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #373645;
+  font-size: 22px;
+  font-weight: 700;
+  color: #373645;
+  min-height: 200px;
 }
 /*# sourceMappingURL=news.css.map */
